@@ -1,0 +1,587 @@
+\documentclass[a7paper, grid=both , 9pt , print ]{kartei}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{stmaryrd}
+\usepackage{dsfont}
+
+
+\begin{document}
+
+\section*{Mafi2}
+\begin{karte}{Definition: Assoziativität, Kommutativität, Idempotenz und Absorption}
+$$A \vee (B \vee C ) \equiv ( A \vee B ) \vee C \text{ (Assoziativität)}$$
+$$A \vee B \equiv B \vee A \text{ (Kommutativität)}$$
+$$A \vee A \equiv A \text{ (Idempotenz)}$$
+$$A \wedge ( A \vee B ) \equiv A \text{ (Absorption)} $$
+\end{karte}
+
+\begin{karte}{Vollständige Induktion}
+\begin{enumerate}
+	\item Induktionsanfang: $A(n_0)$ ist richtig.
+	\item Induktionsschritt: Für jede $n \geq n_0$, für das $A(n)$ wahr ist, ist auch $A(n+1)$ wahr.
+\end{enumerate}
+\end{karte}
+
+\begin{karte}{Satz vom kleinen Gauss}
+Sei $S(n):=1+2+3+\ldots+n$, dann gilt für alle $n \in \mathds{N}$:
+$$S(n)=\frac{n \cdot (n+1)}{2} $$
+\end{karte}
+
+\begin{karte}{Definition von $n!$ und $\binom{n}{k}$}
+$$\binom{n}{k}=\frac{n!}{(n-k)! \cdot k!} \text{ für } n \geq k \geq 0 $$
+$$n! = \prod_{k=1}^{n} k = 1 \cdot 2 \cdot 3 \cdot \ldots \cdot n, \text{ für } n \geq 1, \text{ sowie } 0!=1$$
+\end{karte}
+
+
+\begin{karte}{Definition Gruppe}
+Sei G eine Menge und $ \circ $ eine Verknüpfung auf G (d.h. $\forall x,y \in G: x \circ y \in G, \; x \circ y$ ist eindeutig). $(G,\circ)$ ist eine Gruppe, wenn folgende Eigenschaften erfüllt sind:
+\begin{itemize}
+	\item (G1) $\forall x,y,z \in G: (x \circ y) \circ z = x \circ (y \circ z ) \text{ (Assoziativität)}$
+	\item (G2) Es gibt ein Element $n \in G$ mit der Eigenschaft $\forall x \in G : n \circ x = x \circ n =x$ (Existenz des neutralen Elements)
+	\item (G3)  $\forall x \in G \; \exists ! \; \overline{x} \in G: x \circ \overline{x} = \overline{x} \circ x = n \; $ (Existenz des inversen Elements)
+\end{itemize}
+Falls zusätzlich gilt:
+\begin{itemize}
+	\item (G4) $\forall x,y \in G: x \circ y = y \circ x \text{ (Kommutativität)}$ so spricht man von einer kommutativen (oder abelschen) Gruppe
+\end{itemize}
+\end{karte}
+
+\begin{karte}{Definition: Körper}
+Auf einer Menge G sind zwei Verknüpfungen $+$ und $\cdot$ mit folgenden Eigenschaften gegeben:
+\begin{itemize}
+	\item (K1) $(G,+)$ ist eine kommutative Gruppe mit neutralem Element 0
+	\item (K2) $(G \backslash \left\{ 0 \right\} , \cdot)$ ist eine kommutative Gruppe mit neutralem Element 1.
+	\item (K3) $\forall x,y,z \in G: x \cdot (y+z)=(x \cdot y)+(y \cdot z)$ (Distributivgesetze)
+\end{itemize}
+dann ist $(G,+, \cdot)$ ein Körper.
+\end{karte}
+
+\begin{karte}{Definition: Geordnete Menge}
+Sei M eine Menge und $\sim$ eine Relation auf M (d.h. eine Teilmenge von $M \times M$). Für $(x,y) \in \sim$ schreiben wir $x \sim y$. Eine Relation $\sim$ heißt eine Ordnung und $(M, \sim )$ ist eine geordnete Menge, falls folgende Bedingungen erfüllt sind: 
+\begin{itemize}
+	\item i)  $\forall x \in M: x \sim x$ (Reflexivität)
+	\item ii) $\forall x,y \in M: x \sim y \wedge y \sim x \Rightarrow x = y $ (Antisymmetrie)
+	\item iii) $\forall x,y,z \in M: x \sim y \wedge y \sim z \Rightarrow x \sim z$ (Transitivität)
+\end{itemize}
+Gilt darüber hinaus:
+\begin{itemize}
+	\item iv) $\forall x,y \in M: x \sim y \vee y \sim x$, so heißt $\sim$ eine linearte (oder totale) Ordnung und $(M, \sim )$ eine linear (oder total) geordnete Menge.
+\end{itemize}
+\end{karte}
+
+
+\begin{karte}{$\mathds{R}$ als linear geordneter Körper}
+Es existiert eine lineare Ordnung $\leq$ ("kleiner oder gleich") auf $\mathds{R}$, so dass $(\mathds{R},\leq)$ eine linear geordnete Menge mit folgenden Eigenschaften ist:
+\begin{enumerate}
+	\item $\forall x,y,z \in \mathds{R}: x \leq y \Rightarrow x+z \leq y+z$
+	\item $\forall x,y,z \in \mathds{R}: x \leq y \wedge 0 \leq z \Rightarrow xz \leq yz$ 
+\end{enumerate}
+\end{karte}
+
+\begin{karte}{Definition des Betrag}
+Für $x \in \mathds{R}$ heisst 
+$$ |x|=\left\{\begin{array}{cl} x, & \mbox{falls } x \geq 0 \\ -x, & \mbox{falls } x < 0 \end{array}\right.  $$ der (Absolut- ) Betrag von x.
+\end{karte}
+
+\begin{karte}{Eigenschaften des Betrags}
+Für $a,x, \epsilon \in \mathds{R}$ mit $\epsilon > 0$ gilt:
+\begin{enumerate}
+  \item $\forall x \in \mathds{R}: |x|\geq 0 \wedge (|x|=0 \Rightarrow x=0)$
+  \item $\forall x,y \in \mathds{R}: |x \cdot y|= |x| \cdot |y| $
+  \item $\forall x,y \in \mathds{R}: |x+y| \leq |x|+|y|$
+	\item $|x|< \epsilon \Leftrightarrow x < \epsilon$ und $- \epsilon < x \Leftrightarrow - \epsilon < x < \epsilon$
+	\item $|x-a| < \epsilon \Leftrightarrow a - \epsilon < x < a + \epsilon$
+	\item die Aussagen 4. und 5. gerlten auch, wenn $<$ durch $\leq$ ersetzt wird.
+\end{enumerate}
+\end{karte}
+
+\begin{karte}{Bernoullische Ungleichung}
+Für alle $x \in \mathds{R}$ mit $x \geq -1$ und alle $n \in \mathds{N}_{0}$ gilt: $$ (1+x)^{n} \geq 1+ nx $$
+\end{karte}
+
+\begin{karte}{Definition: Beschränkte Menge}
+Eine Teilmenge $A \subseteq \mathds{R}$ heißt nach oben (bzw. unten) beschränkt, wenn es eine Konstante $K \in \mathds{R}$ gibt, so dass $x \leq K$ (bzw. $x \geq K$) für alle $x \in A$. \newline
+Man nennt K obere (bzw. untere) Schranke von A. \newline
+Die Menge A heißt beschränkt, wenn sie nach oben und nach unten beschränkt ist.
+\end{karte}
+
+\begin{karte}{Definition: Supremum und Infimum}
+Sei A eine Teilmenge von $\mathds{R}$. Eine Zahl $K \in \mathds{R}$ heißt Supremum (bzw. Infimum) von A, falls K die kleinste obere (bzw größte untere) Schranke von A ist. Dabei heißt K die kleinste obere Schrank, falls gilt:
+\begin{enumerate}
+	\item K ist eine obere Schranke
+	\item für jede obere Schranke K' von A gilt $K \leq K'$
+\end{enumerate}
+(Analog für größte Untere Schranke).\newline
+Jede nichtleere Teilmenge A von $\mathds{R}$ hat höchstens ein Supremum und höchstens ein Infimum. D.h. das Supremum (bzw. Inifimum) von A ist, falls vorhanden eindeutig und wird mit sup(A) (bzw. inf(A)) bezeichnet. 
+\end{karte}
+
+\begin{karte}{Intervallschachtelung}
+Eine Intervallschachtelung ist eine Folge von abgeschlossenen Intervallen $I_{1}, I_{2}, I_{3},\ldots$ mit folgenden Eigenschaften:
+\begin{enumerate}
+	\item $I_{n+1} \subset I_{n}$ für $n=1,2,3, \ldots$
+	\item Zu jedem $\epsilon > 0$ gibt es ein Intervall $I_{n}$ mit $|I_{n}|<\epsilon$
+\end{enumerate}
+\end{karte}
+
+\begin{karte}{Definition: Konvergente Folge}
+Eine Folge $f=(a_{n})_{n \in \mathds{N}}$ heißt konvergent gegen $a \in \mathds{R}$, falls gilt: $$\forall \epsilon >0 \; \exists \;   n_{0} \in \mathds{N}: |a_{n}-a|< \epsilon \text{ für alle } n \geq n_{0}$$.
+
+\end{karte}
+
+\begin{karte}{Definition: divergente Folge}
+Eine Folge $f=(a_n)_{n\in \mathds{N}}$ heißt bestiummt divergent gegen $\infty$, falls ein $n_{0} \in \mathds{N}$ existiert, so dass für alle $n \geq n_0, \; a_n > 0$ und die Folge $\left( \frac{1}{a_n} \right) _{n \in \mathds{N}}$ gegen 0 konvergiert. (entsprechend kann man Divergenz gegen $- \infty$ definieren )
+\end{karte}
+
+\begin{karte}{Beschränkheit und Konvergenz von Folgen }
+Jede konvergente Folge ist beschränkt.
+
+\end{karte}
+
+\begin{karte}{Rechenregeln für Folgen}
+Seien $f=(a_n)_{n \in \mathds{N}}$ und $g=(b_n)_{n \in \mathds{N}}$ zwei Folgen und $c \in \mathds{R}$, dann definieren wir:
+\begin{enumerate}
+	\item $f+g=(a_n)_{n \in \mathds{N}})+(b_n)_{n \in \mathds{N}}=(a_n+b_n)_{n \in \mathds{N}}$
+	\item $c \cdot f = c \cdot (a_n)_{n \in \mathds{N}}=(c \cdot a_n)_{n \in \mathds{N}}$
+	\item $ f \cdot g= (a_n)_{n \in \mathds{N}} \cdot (b_n)_{n \in \mathds{N}}=(a_n\cdot b_n )_{n \in \mathds{N}}$
+	\item $\frac{f}{g}=\frac{(a_n)_{n \in \mathds{N}}}{(b_n)_{n \in \mathds{N}}}=\left( \frac{a_n}{b_n}\right)_{n \in \mathds{N}}$, falls $b_n \neq 0$ für alle $n \in \mathds{N}$
+\end{enumerate}
+\end{karte}
+
+\begin{karte}{Teilfolge}
+Sei $(a_{n_k})$ eine Folge und $n_1<n_2< \ldots $ eine aufsteigende unendliche Folge natürlicher Zahlen, dann heißt $(a_{n_k})_{k \in \mathds{N}}=a_{n_1},a_{n_2}, \ldots $ eine Teilfolge der Folge $(a_n)_{n \in \mathds{N}}$
+\end{karte}
+
+\begin{karte}{Konvergenz von Teilfolgen}
+Jede Teilfolge $(a'_{n_k})_{k \in \mathds{N}}$ einer konvergenten Folge $(a_n)_{n \in \mathds{N}}$ ist konvergent und es gilt $$\lim_{k \rightarrow \infty} \left( a'_{n_k} \right) = \lim_{k \rightarrow \infty} \left( a'_{n} \right) = a$$
+\end{karte}
+
+
+\begin{karte}{Divergenzkriterium}
+Besitzt eine Folge $(a_n)_{n \in \mathds{N}}$
+\begin{itemize}
+	\item eine  divergente Teilfolge oder
+	\item zwei konvergente Teilfolgen $(a'_{n_k})_{k \in \mathds{N}}$ und $(a''_{n_l})_{l \in \mathds{N}}$ mit \newline $\lim_{k \rightarrow \infty} (a'_{n_k}) \neq \lim_{l \rightarrow \infty} (a''_{n_l})$ 
+\end{itemize}
+so ist die Folge divergent.
+\end{karte}
+
+
+\begin{karte}{Monotoniekriterium}
+Jede beschränktê monotone Folge ist konvergent. Genauer:\newline
+Ist $f=(a_n)_{n\in \mathds{N}}$ monoton wachsend und nach oben beschränkt, so ist f konvergent und es gilt: $$\lim_{n \rightarrow \infty} (a_{n})=\sup\left\{ a_n | n \in \mathds{N} \right\}$$
+
+\end{karte}
+
+\begin{karte}{Monotone Teilfogen}
+Jede Folge enthält eine monotone Teilfolge.
+\end{karte}
+
+\begin{karte}{Satz von Bolzano-Weierstraß}
+Jede beschränkte Folge besitzt eine konvergente Teilfolge.
+\end{karte}
+
+\begin{karte}{Häufungspunkt}
+Für eine Folge $f=(a_n)_{n\in \mathds{N}}$ heißt a ein Häufungspunkit, wenn es eine Teilfolge von $f$ gibt, die gegen a konvergiert.
+\end{karte}
+
+\begin{karte}{Cauchy-Folge}
+Eine Folge $f=(a_n)_{n\in \mathds{N}}$ heißt Cauchy-Folge, wenn gilt $$ \forall \epsilon >0 \; \exists n_0 \in \mathds{N} \; \forall n \geq n_0 : |a_n-a_{n_0}| < \epsilon $$
+\end{karte}
+
+
+\begin{karte}{Eigenschaften von Cauchy-Folgen}
+\begin{itemize}
+	\item Jede konvergente Folge ist eine Cauchy-Folge.
+	\item Jede Cauchy-Folge ist beschränkt.
+	\item Besitzt eine Cauchy-Fole eine konvergente Teilfolge , so ist sie selbst konvergent.
+	\item Jede Cauchy-Folge ist kovergent.
+	\item Eine Folge $(a_n)_{n\in \mathds{N}}$ ist genau dann konvergent, wenn sie eine Cauchy-Folge ist. 
+\end{itemize}
+\end{karte}
+
+
+\begin{karte}{Konvergenz der Wurzelberechnung}
+Seien $a>0$ und $x_1>0$ reele Zahlen. Sei $(x_n)_{n\in \mathds{N}}$ definiert als $$x_{n+1}=\left( x_n + \frac{a}{x_n} \right)$$
+Dann konvergiert $(x_n)_{n\in \mathds{N}}$ gegen $\sqrt{a}$ (d.h. $x^2=a$)
+\end{karte}
+
+\begin{karte}{Definition: Reihe}
+Man nennt den formalen Ausdruck $$\sum_{k=1}^{\infty}a_k=a_1+a_2+a_3+\ldots$$ mit $a_k \in \mathds{R}$ eine unendliche Reihe und $s_n=\sum^{n}_{k=1}a_k$ die n-te Teilsumme. Wenn die Folge der Teilsummen konvergiert, so heißt die Reihe konvergent. Eine nicht konvergente Reihe heisst divergent. Konvergiert sogar $\sum_{k=1}^{\infty}|a_k|$, so nennt man die Reihe absolut konvergent.
+\end{karte}
+
+
+\begin{karte}{Leibniz-Kriterium}
+Sei $(a_n)_{n\in \mathds{N}}$ eine monoton fallende Folge nichtnegativer Zahlen, mit $$\lim_{k \rightarrow \infty} (a_k)=0 $$
+Dann konvergiert die alternierende Reihe $$\sum^{\infty}_{k=1}(-1)^k \cdot a_k $$
+\end{karte}
+
+\begin{karte}{Konvergenz absolut konvergenter Reihen}
+Wenn die Reihe $\sum^{\infty}_{k=1}a_k$ absolut konvergiert, so konvergiert sie auch im gewöhnlichen Sinne.
+\end{karte}
+
+\begin{karte}{Majorantenkriterium}
+Sei $\sum^{\infty}_{k=1}c_k$ eine konvergente Reihe mit ausschliesslich nicht negativen Gliedern und $(a_n)_{n \in \mathds{N}}$ eine Folge mit $a_k \leq c_k$ für alle $k \in \mathds{N}$, dann konvergiert die Reihe $\sum_{k=1}^{\infty}a_k$ absolut.
+\end{karte}
+
+\begin{karte}{Wurzelkriterium}
+Sei $\sum^{\infty}_{k=1}a_k$ eine Reihe. Gibt es ein $c \in \mathds{R}$ und ein $q \in \mathds{R}$ mit $0 \leq q < 1 $, so dass $|a_k| \leq c q^k \; \forall k \in \mathds{N}$, dann ist die Reihge absolut konvergent.\newline
+Also muss gelten: $$\lim_{n \to \infty} \sqrt[n]{a_n}<1  $$
+\end{karte}
+
+
+\begin{karte}{Quotientenkriterium}
+Sei $\sum^{\infty}_{k=1}a_k$ eine Reihe mit $a_k \neq 0$ für alle $k \geq n_0$. Es gebe eine reelle Zahl $q \in \mathds{R}$ mit $0 < q < 1$, so dass $|\frac{a_{k+1}}{a_k}| \leq q \; \forall k \geq n_0$, dann ist die Reihe absolut konvergent. \newline
+Es muss gelte: $$\lim_{n \to \infty} \left|  \frac{a_{n+1}}{a_{n}} \right| <1 $$
+\end{karte}
+
+\begin{karte}{Umordnung in einer Reihe}
+Sei $\sum^{\infty}_{k=1}a_k$ eine absolut konvergente Reihe. Dann konvergiert jede Umordnung der Glieder der Reihe gegen denselben Grenzwert.
+\end{karte}
+
+\begin{karte}{Exponentialreihe}
+Für jedes $x \in \mathds{R}$ ist die Exponentialreihe $$exp(x)=\sum^{\infty}_{k=1} \frac{x^k}{k!}$$ absolut konvergent.
+\end{karte}
+
+
+\begin{karte}{Cauchy-Produkt}
+Seien Sei $\sum^{\infty}_{k=1}a_k$ und $\sum^{\infty}_{k=1}b_k$ absolut konvergente Reihen. Für $n \in \mathds{N}$ sei $c_n=\sum^{\infty}_{k=1}a_k \cdot b_{n-k}=a_0 \cdot b_n + a_1 \cdot b_{n-1}+ \ldots + a_n \cdot b_0 $
+Dann ist die Reihe 
+$$\sum^{\infty}_{n=1}c_n= \left( \sum^{\infty}_{k=1}a_k \right) \cdot \left( \sum^{\infty}_{l=1}b_l \right)$$ absolut konvergent. 
+\end{karte}
+
+\begin{karte}{Konvergenz von Potenzreihen}
+Konvergiert eine Potenzreihe P in einem Punkt $x_0 \neq 0$, so konvergiert sie in jede, Punkt $|x|<|x_0|$ absolut.
+\end{karte}
+
+\begin{karte}{Konvergenz von $\sum^{\infty}_{k=1}q^k$}
+Die Reihe $\sum^{\infty}_{k=1}q^k$ ist:
+\begin{itemize}
+	\item konvergent, falls $|q| <1$
+	\item divergent, falls $q=-1$
+	\item divergent für $|q|>1$
+\end{itemize}
+\end{karte}
+
+\begin{karte}{Definition: injektiv, surjektiv und bijektiv}
+Eine Funktion $f:A \rightarrow B$ heißt
+\begin{itemize}
+	\item injektiv, wenn zu jedem $y \in B$ höchstens ein $x \in A$ mit $f(x)=y$ gehört (d.h. $x_1 neq x_2 \Rightarrow f(x_1) \neq f(x_2)$)
+	\item surjektiv, wenn jedes $y \in B$ als Abbild eines $x \in A$ auftaucht (d.h. $\forall y \in B \; \exists x \in A: f(x)=y$)
+	\item bijektiv, wenn sie injektiv und surjektiv ist.
+\end{itemize}
+\end{karte}
+
+
+\begin{karte}{Umkehrfunktion}
+Für eine bijektive Funktion $f:A \rightarrow B$ definieren wird die Umkehrfunktion $f^{-1}: B \rightarrow A$ als $f^{-1}(y)=x$ genau dann, wenn $f(x)=y$
+\end{karte}
+
+
+\begin{karte}{Komposition von Funktionen}
+Seien $f:A \rightarrow \mathds{R}$  und $g:B \rightarrow \mathds{R}$ und $f(x) \in B$ für alle $x \in A$. Dann ist die Funktion $f \circ g : A \to \mathds{R}$ definiert durch $$ (g \circ f)(x)=g(f(x))$$
+\end{karte}
+
+\begin{karte}{Beschränkte Funktion}
+Eine Funktion $f:A \rightarrow \mathds{R}$ heißt beschränkt, wenn $|f(x)| \leq K$ für alle $x \in A$ und ein $K \in \mathds{R}$. 
+\end{karte}
+
+\begin{karte}{Kompakte Intervalle}
+Unter einem kompakten Intervall versteht man ein abgeschlossenes und beschränktes Intervall $\left[ a , b \right] \subset \mathds{R} $.
+\end{karte}
+
+\begin{karte}{Monotone Funktionen}
+Sei $A \subset \mathds{R}$ und $f:A \rightarrow \mathds{R}$ eine Funktion.
+$$\text{f heisst } \left\{\begin{array}{cl}
+\text{monoton wachsend} \\ 
+\text{streng monoton wachsend} \\
+\text{monoton fallend} \\
+\text{streng monoton fallend} 
+\end{array} \right\} , \text{falls}
+\left\{\begin{array}{cl}
+f(x) \leq f(x')\\
+f(x) < f(x')   \\
+f(x) \geq f(x') \\
+f(x) > f(x') \end{array} \right\}
+ $$
+ für $ x,x' \in A $ mit $x < x'$
+\end{karte}
+
+
+\begin{karte}{Injektive Funktion}
+Sei $A \subset \mathds{R}$ und $f: A \to \mathds{R}$ eine Funktion. Ist f streng monoton, so ist $f$ injektiv und die Umkehrfunktion $f^{-1}:f(A)\to A$ ist ebenfalls monoton (im gleichen Sinne).
+\end{karte}
+
+
+\begin{karte}{Berührungspunkt}
+Sei $A \subset  \mathds{R}$ und $a \in \mathds{R}$
+\begin{itemize}
+	\item a heißt Berührungspunkt von A, falls in jeder $\epsilon -$Umgebung von a (d.h. $U_{\epsilon} (a)=(a-\epsilon, a + \epsilon), \epsilon >0$) mindestens ein Punkt von A liegt.
+	\item a heißt Häufungspunkt, falls in jeder $\epsilon -$ Umgebung von a unendlich viele Punkte von A liegen.
+\end{itemize}
+\end{karte}
+
+\begin{karte}{Grenzwerte von Funktionen}
+Sei $A \subset \mathds{R}, f : A \to \mathds{R}$ und $a \in \mathds{R}$ ein Berührungspunkt von A. Man definiert dann $\lim_{x \to a} f(x)=c$, falls für jede Folge $(x_n)_{n \in \mathds{N}}, x_n \in A$ mit $\lim_{n \to \infty} x_n =a, \lim_{n \to \infty} f(x_n)=c$ gilt. 
+\end{karte}
+
+
+\begin{karte}{Stetigkeit}
+Sei $f: A \to \mathds{R}$ eine Funktion und $a \in A$. Die Funktion $f$ heißt stetig in a, falls $$\lim_{x \to a} f(x)=f(a)$$.
+$f$ heißt stetig (in A), falls f in jedem Punkt von A stetig ist.
+\end{karte}
+
+
+\begin{karte}{Operationen auf stetigen Funktionen}
+Für 2 stetige Funktionen, $f:A \to \mathds{R}$ und $g: A \to \mathds{R}$  , die in $a \in A$ stetig sind, Dann sind auch die Funktionen die aus Verknüpfung von f und g mit $+, \cdot$ möglich sind stetig. Ist $g(a) \neq 0$, so ist auch die Funktion $ \left( \frac{f}{g} \right) $ in a stetig. 
+\end{karte}
+
+
+\begin{karte}{Stetigkeit und rationale Funktionen}
+Jede rationale Funktion ist stetig in ihrem Definitionsbereich.
+\end{karte}
+
+
+\begin{karte}{Kompoistion von stetigen Funktionen}
+Seien $f: A \to \mathds{R}$ und $g: B \to \mathds{R}$ Funktionen mit $f(A) \subset B$. Die funktion f sei in $a \in A$ und Funktion g sein in $b=f(a)$ stetig. Dann ist die Funktion $$ g \circ f : A \to \mathds{R} $$ in a stetig.
+\end{karte}
+
+
+\begin{karte}{Zwischenwertsatz}
+Sei $f: \left[ a,b \right] \to \mathds{R} \; $ eine stetige Funktion mit $f(a) < 0$ und $f(b) >0$ (bzw. $f(a)>0$ und $f(b)< 0$). Dann existiert einb $c \in (a,b)$ mit $f(c)=0$.
+\end{karte}
+
+
+\begin{karte}{Generalisierung des Zwischenwertsatzes}
+Sei $f: \left[a,b \right] \to \mathds{R}$ eine stetige Funktion, $y \in \mathds{R}$ mit $f(a)<y$ und $f(b)>y$ (bzw. $f(a)>y$ und $f(b)<y$). Dann existiert ein $c \in (a,b)$ mit $f(c)=y$.
+\end{karte}
+
+
+\begin{karte}{Generalisierung auf Intervalle}
+Sei $I \subset \mathds{R}$ ein Intervall und $f: I \to \mathds{R}$ eine stetige Funktion. Dann ist auch $I'=f(I) \subset \mathds{R}$ ein Intervall.
+\end{karte}
+
+
+
+\begin{karte}{Stetige Funktionen auf kompakten Intervallen}
+Jede in einem kompakten Intervall stetige Funktion $f: \left[a,b \right] \to \mathds{R}$ ist beschränkt und nimmt ihr Minimum und Maximum an. D.h. es existiert ein $c \in \left[a,b \right] $, so dass $f(c)= \sup \left\{ f(x) | x \in \left[a,b \right] \right\}$ und ein Punkt $d \in \left[a,b \right]$, so dass $f(d)= \inf \left\{ f(x) | x \in \left[a,b \right] \right\}$
+\end{karte}
+
+\begin{karte}{$\epsilon - \delta -$Definition von Stetigkeit}
+Sei $A \subset \mathds{R}$ und $f: A \to \mathds{R}$ eine stetige Funktion f ist genau dann im Punkt $a \in A$ stetig, wenn gilt: \newline
+Zu jedem $\epsilon > 0$ existiert ein $\delta > 0$, sodass $|f(x)-f(a)|< \epsilon$ für alle $|x-a|< \delta$.
+\end{karte}
+
+\begin{karte}{Stetigkeit und Werte $\neq 0$}
+Sei $f : A \to \mathds{R}$ stetig im Punkt $a \in A$ und $f(a) \neq 0$. Dann ist $f(x) \neq 0$ für alle x in einer Umgebung von a, d.h. es existiert ein $\delta >0$, so dass $f(x) \neq 0$ für alle $x \in A$ mit $|x-a|< \delta$.
+\end{karte}
+
+
+\begin{karte}{Stetigkeit und bijektive Abbildungen}
+Sei $I \subset \mathds{R}$ ein Intervall und $f: I \to \mathds{R}$ stetig und streng monoton (wachsend oder fallend). Sei $J=f(I)$, dann bildet f I bijektiv auf J ab und die Umkehrfunktion $f^{-1}: J \to \mathds{R}$ ist stetig. 
+\end{karte}
+
+
+\begin{karte}{Gleichmäßige Stetigkeit}
+Eine Funktion $f: A \to \mathds{R}$ heißt in A gleichmässig stetig, wenn gilt:\newline
+Zu jedem $\epsilon > 0$ existiert ein $\delta > 0$, so dass $|f(x)-f(x')|< \epsilon$ für alle $x,x' \in A$ mit $|x-x'|< \delta$
+\end{karte}
+
+
+\begin{karte}{Stetigkeit auf kompakten Intervallen}
+Jede auf einem kompakten Intervall stetige Funktion \newline
+ $f: \left[a,b \right] \to \mathds{R}$ ist dort gleichmäßig stetig.
+\end{karte}
+
+
+\begin{karte}{Eigenschaften des Logarithmus}
+$$\ln( e^x )=e^{ \ln (x)}=x$$
+$$\ln(1)=0 \text{ und } \ln(e)=1 $$
+$$\ln(xy)=\ln (x) + \ln (y) $$
+$$\ln ( \frac{1}{x})=- \ln (x) $$
+\end{karte}
+
+\begin{karte}{Defintion der Sinus und Cosinus Funktionen}
+Für alle $x \in \mathds{R}$ sind die Funktionen $\cos : \mathds{R} \to \mathds{R}$ und $\sin : \mathds{R} \to \mathds{R}$ definiert als: 
+$$\cos (x)= \sum_{k=0}^{\infty} (-1)^{k} \frac{x^{2k}}{(2k)!} $$ und 
+$$\sin (x)= \sum_{k=0}^{\infty} (-1)^{k} \frac{x^{2k+1}}{(2k+1)!}$$
+\end{karte}
+
+\begin{karte}{Eigenschaften von Sinus und Cosinus}
+\begin{itemize}
+	\item $\sin ^[2] x + cos^{2}=1$
+	\item $\cos (-x)=\cos (x)$ und $\sin(-x)=- \sin(x)$
+	\item $\cos (x+y)= \cos (x) \cos(y) - \sin (x) \sin (y)$ und $\sin(x+y) = \sin (x) \cos (y) + \cos (x) \sin (y) $
+	\item $\cos (x + 2 \pi)= \cos (x)$ und $sin (x + 2 \pi) = \sin (x)$
+	\item $\cos (x)=0 \Leftrightarrow x \in \left\{ \frac{\pi}{2}+ k \pi |k \in \mathds{Z} \right\} $ und $\sin (x)=0 \Leftrightarrow x \in \left\{  k \pi |k \in \mathds{Z} \right\}$	
+\end{itemize}
+
+
+
+\end{karte}
+
+
+
+\begin{karte}{Differenzierbarkeit}
+Sei $a \in A \subseteq \mathds{R}$ und sei $f: A \to \mathds{R}$ eine Funktion f heißt differenzierbar, falls der Grenzwert $$f'(a)=\lim_{\begin{matrix} x \to a \\ x \in A \backslash \left\{ a \right\} \end{matrix} } \frac{f(x) - f(a)}{x-a} $$ existiert.
+\end{karte}
+
+
+\begin{karte}{Differenzierbarkeit einer Funktion}
+Eine Funktion $f: A \to \mathds{R} \; (A \subseteq  \mathds{R})$ ist in einem Häufungspunkt $a \in A$ differenzierbar, wenn es eine Konstante $c \in \mathds{R}$ gibt, so dass $$f(x)=f(a)+c \cdot (x-a)+ r(x) \; (x \in A), $$
+wobei $r(x)$ eine Funktion mit der Eigenschaft $$\lim_{\begin{matrix} x \to a \\ x \neq a \end{matrix}} = \frac{r(x)}{x-a}=0 $$. Es gilt in diesem Fall $c=f'(a)$.
+\end{karte}
+
+
+\begin{karte}{Differenzierbarkeit und Stetigkeit}
+Ist die Funktion $f: A \to \mathds{R} \; (A \subseteq \mathds{R})$ in $a \in A$ differenzierbar, so ist sie in $a$ auch stetig
+\end{karte}
+
+
+\begin{karte}{Produktregel}
+Seien $f$ und $g$ differenzierbare Funktionen. Dann ist 
+$(f \cdot g)'(a)=f'(a)\cdot g(a)+f(a)\cdot g'(a)$
+\end{karte}
+
+
+\begin{karte}{Quotientenregel}
+Sei $\frac{f}{g}: A \to \mathds{R}$ mit $g(y) \neq 0 \; \forall y \in A $ differenzierbar und es gilt: 
+$$ \left( \frac{f}{g} \right) '(a)=\frac{f'(a)\cdot g(a) - f(a) \cdot g'(a)}{g^2(a)} $$
+\end{karte}
+
+
+\begin{karte}{Linearität von Ableitungen}
+Sei $f:A \to \mathds{R}$ und $g: A \to \mathds{R} \; (A \subseteq \mathds{R})$ in $a \in A$ diffbar und $c \in \mathds{R}$.
+Es gilt: $$(f+g)'(a)=f'(a)+g'(a) $$
+$$(c \cdot f)'(a)=c \cdot f'(a) $$
+\end{karte}
+
+
+\begin{karte}{Ableitung der Umkehrfunktion}
+Sei $I \subseteq \mathds{R}$ ein Intervall, das aus mehr als einem Punkt besteht und sei $f: I \to \mathds{R}$ eine stetige, streng monotone Funktion und $g=f^{-1}: J \to \mathds{R}$ mit J=f(I) deren Umkehrfunktion. Ist $f$ in $x \in I$ differenzierbar und es gilt $f'(x) \neq 0$, so ist $g$ in $y=F(x)$ differenzierbar und es gilt: $$g'(x)=\frac{1}{f'(x)}=\frac{1}{f'(g(y))} $$
+\end{karte}
+
+
+\begin{karte}{Kettenregel}
+Seien $f:A \to \mathds{R}$ und $g:B \to \mathds{R} \; ( A,B \subseteq \mathds{R}, f(A) \subseteq B )$ Funktionen \newline
+$f$ sei in $x \in A$ differenzierbar und $g$ sei in $y=f(x)$ differenzierbar. Dann ist die zusammengesetzte Funktion $g \circ f : A \to \mathds{R}$ im Punlt x differenzierbar und es gilt: $$(g \circ f)'(x)=g'(f(x)) \cdot f'(x) $$
+\end{karte}
+
+
+\begin{karte}{Ableitungen höherer Ordnung}
+Sei $f: A \to \mathds{R} \; (A \subseteq \mathds{R})$ eine Funktion. Dann ist die k-te Ableitung (bzw. ABleitung k-ter Ordnung) von $f$ definitert als $f^{(k)}$ für $k \in \mathds{N}$ mit 
+\begin{itemize}
+	\item $f^{(0)}=f$
+	\item $f^{(k+1)}=(f^{(k)})' : A \to \mathds{R}$ falls die Ableitung von $f^{(k)}$ in jedem $a \in A$ existiert.
+\end{itemize}
+\end{karte}
+
+
+\begin{karte}{Operationen auf höheren Ableitungen}
+Sei $k \in \mathds{N}, c \in \mathds{R}, A \subseteq \mathds{R}$ und seien die Funktionen $f: A \to \mathds{R}$ und $g:a \to \mathds{R}$ in $A$ k-mal differenzierbar.Es gilt: 
+\begin{itemize}
+	\item $(f+g)^{(k)}=f^{(k)}+g^{(k)}$ und $(f-g)^{(k)}=f^{(k)}-g^{(k)}$
+	\item $(c \cdot f)^{(k)}=c \cdot f^{(k)}$
+	\item $(f \cdot g)^{(k)}=\sum_{i=0}^{k} \binom{k}{i}f^{(i)} \cdot g^{(k-i)}$
+	\item $ \left( \frac{f}{g} \right) ^{(k)}=\frac{f^{(k)}-\sum_{i=0}^{k-1} \left( \frac{f}{g} \right)^{(i)} \cdot g^{(k-i)}}{g}$
+\end{itemize}
+Ist ferne $f(A) \subseteq B \subseteq \mathds{R}$ und $g:B \to \mathds{R}$ in B k-mal differenzierbar, so ist es auch $g \circ f$ k-mal differenzierbar.
+\end{karte}
+
+
+\begin{karte}{Lokales Extrema}
+Sei $f:(a,b) \to \mathds{R}$ eine Funktion $f$ hat in $x \in (a,b)$ ein lokales Maximum (Minimum), wenn ein $\epsilon > 0$ exiswtiert, so dass 
+$$f(x) \geq f(y) \text{ bzw. } f(x) \leq f(y)  $$ für alle $y$ mit $|x-y|< \epsilon$, so spricht man von einem strikten lokalen Maximum (bzw. Minimum).
+\end{karte}
+
+
+\begin{karte}{Notwendige Bedingung für Extrema}
+Die Funktion $f:(a,b) \to \mathds{R}$ besitze im Punkt $x \in (a,b)$ ein lokales Extremum und sei in x differenzierbar. Dann ist $f'(x)=0$
+
+\end{karte}
+
+
+\begin{karte}{Satz von Rolle}
+Sei $ a < b $ und $f: \left[ a,b \right] \to \mathds{R}$ eine stetige Funktion mit $f(a)=f(b)$. $f$ sein in $(a,b)$ differenzierbar. Dann existiert ein $c \in (a,b)$ mit $f'(c)=0$.
+\end{karte}
+
+
+\begin{karte}{Mittelwertsatz}
+Sei $a< b $ und $f: \left[ a,b \right] \to \mathds{R}$ eine stetige Funktion, die in (a,n) differenzierbar ist. Dann existiert ein $c \in (a,b)$, sodass $$\frac{f(b)-f(a)}{b-a}=f'(c) $$
+\end{karte}
+
+
+\begin{karte}{Wachstum einer Funktion}
+Sei $f: \left[ a,b \right] \to \mathds{R}$ eine stetige und in $(a,b)$ differenzierbare Funktion. Für die Ableitung $K^{-} \leq f'(x) \leq K°{+}$ für alle $x \in (a,b)$ mit $K°{-},K^{+} \in \mathds{R}$. \newline
+Für alle $c,d \in \left[ a,b \right] $ mit $c \leq d$ gilt: 
+$$K^{-}(d-c) \leq f(d)-f(c) \leq K^{+}(d-c) $$ 
+\end{karte}
+
+
+\begin{karte}{Monotonie von Funktionen}
+\begin{itemize}
+	\item $f$ ist genau dann in $\left[ a,b \right] $ monoton wachsend, wenn $f'(x) \geq 0 $ für alle $x \in (a,b)$
+	\item $f$ ist genau dann in $\left[ a,b \right] $ monoton fallend, wenn $f'(x) \leq 0 $ für alle $x \in (a,b)$
+	\item Gilt $f'(x) > 0 $ für alle $x \in (a,b)$, so ist f streng monoton wachsend und folglich injektiv.
+	\item Gilt $f'(x) < 0 $ für alle $x \in (a,b)$, so ist f streng monoton folgend und folglich injektiv.
+\end{itemize}
+\end{karte}
+
+
+\begin{karte}{Strenges lokales Maximum}
+Sei $f:(a,b) \to \mathds{R}$ eine differenzierbare Funktion, die im Punkt $x \in (a,b)$ zweimal differenzierbar ist. Falls $f'(x)=0$ und $f''(x) > 0 $ (bzw. $ f''(x)<0 $), dann besitzt $f$ in x ein streng lokales Minimum (bzw. Maximum).
+\end{karte}
+
+
+\begin{karte}{Zweiter Mittelwertsatz}
+Seien $f : \left[ a,b \right] \to \mathds{R} $ und $g : \left[ a,b \right] \to \mathds{R} $  zwei Funktionen, die auf $\left[ a,b \right]$ stetig und auf $(a,b)$ differenzierbar sind. \newline
+Sei ferne  $g'(x) \neq 0$ für alle $x \in (a,b)$, dann ist $g(a) \neq g(b)$ und es existiert ein $c \in (a,b)$ mit 
+$$\frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(c)}{g'(c)} $$
+\end{karte}
+
+
+\begin{karte}{Regel von l'Hospital $( 0 \backslash 0 )$}
+Seien $f: \left[ a,b \right] \to \mathds{R}$ und $g: \left[ a,b \right] \to \mathds{R}$ zwei Funktionen, die auf $\left[ a,b \right]$ stetig und auf $(a,b)$ differenzierbar sind. Sei $c \in \left[ a,b \right] $ und $g'(x) \neq 0$ für $x \in (a,b) \backslash \left\{ c \right\}$. \newline
+Gilt $\lim_{x \to c} f(x)=0$ und $\lim_{x \to c} g(x)=0$ und existiert \newline
+$\lim_{x \to c} \frac{f'(x)}{g'(x)} \in \mathds{R}$, so existiert auch $\lim_{x \to c} \frac{f(x)}{g(x)}$ und es gilt: 
+$$\lim_{x \to c} \frac{f(x)}{g(x)}=\lim_{x \to c} \frac{f'(c)}{g'(c)}$$
+\end{karte}
+
+
+\begin{karte}{Regel von l'Hospital $( \infty \backslash \infty )$}
+Seien $f: \left[ a,b \right] \to \mathds{R}$ und $g: \left[ a,b \right] \to \mathds{R}$ zwei Funktionen, die auf $\left[ a,b \right]$ stetig und auf $(a,b)$ differenzierbar sind. Sei $c \in \left[ a,b \right] $ und $g'(x) \neq 0$ für $x \in (a,b) \backslash \left\{ c \right\}$. \newline
+Gilt $\lim_{x \to c} f(x)= \infty $ und $\lim_{x \to c} g(x)= \infty $ und existiert \newline
+$\lim_{x \to c} \frac{f'(x)}{g'(x)} \in \mathds{R}$, so existiert auch $\lim_{x \to c} \frac{f(x)}{g(x)}$ und es gilt: 
+$$\lim_{x \to c} \frac{f(x)}{g(x)}=\lim_{x \to c} \frac{f'(c)}{g'(c)}$$
+\end{karte}
+
+
+\begin{karte}{Schritte der Kurvendiskussion}
+\begin{enumerate}
+	\item Symmetrie
+	\item Verhalten am Rand des Definitionsbereich
+	\item Nullstellen
+	\item Extrempunkte
+	\item Wendepunkte
+	\item Funktionsgraph
+\end{enumerate}
+\end{karte}
+
+\begin{karte}{Taylorsche Formel}
+Sei $f: A \ to \mathds{R}$ eine in A $n+1$ mal stetig differenzierbare Funktion und $a in A$ Dann gilt für $x \in A$: 
+$$f(x)=f(a)+\sum_{k=1}^{n} \frac{f^{(k)}(a)}{k!} (x-a)^k +R_n (x) $$
+wobei es zu jedem $x \in A$ (mindestens) ein $y \in (\min(x,a), \max(x,a))$ mit 
+$$R_n(y)= \frac{f^{n+1}(y)}{(n+1)!} (x-a)^{n+1} $$ gibt.
+Gilt $$\lim_{n \to \infty} R_n(y)=0 $$ und konvergiert die Taylor-Formel für $n \to \infty$ so stellt die Taylor-Formel in y die Funktion f dar.
+ 
+\end{karte}
+
+\begin{karte}{Taylor-Reihe}
+Sei $f:a \to \mathds{R}$ eine in $a \in A$ beliebig oft differenzierbare Funktion. Dann heisst $$T\left[ f,a \right] (x)  =\sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!} (x-a)^k  $$ die Taylor Reihe von f im Entwicklungspunkt a.
+\end{karte}
+
+
+\end{document}

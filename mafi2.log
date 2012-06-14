@@ -1,0 +1,989 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.12.19)  14 JUN 2012 22:57
+entering extended mode
+**D:/documents/archiv/lernkarten/mafi2.tex
+(D:/documents/archiv/lernkarten/mafi2.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(D:\documents\archiv\lernkarten\kartei.cls
+Document Class: kartei 2010/11/07 Karteikarten in LaTeX, Version 1.8b
+\card@papersize=\count79
+\card@Rearsiderotation=\count80
+\card@gridx=\skip41
+\card@gridy=\skip42
+\card@minx=\skip43
+\card@miny=\skip44
+\card@maxx=\skip45
+\card@maxy=\skip46
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
+Document Class: scrartcl 2011/06/16 v3.09a KOMA-Script document class (article)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
+Package: scrkbase 2011/06/16 v3.09a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
+Package: scrbase 2011/06/16 v3.09a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.sty
+Package: scrlfile 2011/03/09 v3.09 KOMA-Script package (loading files)
+
+Package scrlfile, 2011/03/09 v3.09 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\tocbasic.sty
+Package: tocbasic 2011/05/30 v3.09a KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 115.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 116.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 117.
+Package scrartcl Info: You've used obsolete option `9pt'.
+(scrartcl)             \KOMAExecuteOptions{fontsize=9pt} will be
+(scrartcl)             used instead.
+(scrartcl)             You may simply replace `9pt'
+(scrartcl)             by `fontsize=9pt'.
+Class scrartcl Info: File `size9.clo' used to setup font sizes on input line 12
+47.
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\extsizes\size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.sty
+Package: typearea 2011/06/16 v3.09a KOMA-Script package (type area)
+
+Package typearea, 2011/06/16 v3.09a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip47
+\ta@div=\count81
+\ta@hblk=\skip48
+\ta@vblk=\skip49
+\ta@temp=\skip50
+DIV calculation for typearea with good linewidth.
+
+Package typearea Warning: Maybe no optimal type area settings!
+(typearea)                The maximum limit of line width is about 54%
+(typearea)                larger than the heuristically detected line width.
+(typearea)                You may e.g. increase DIV, decrease fontsize
+(typearea)                or change the papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 8
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 210.55042pt
+(typearea)              \textwidth      = 131.59401pt
+(typearea)              DIV departure   = 54%
+(typearea)              \evensidemargin = -19.63239pt
+(typearea)              \oddsidemargin  = -45.95119pt
+(typearea)             \paperheight     = 298.75397pt
+(typearea)              \textheight     = 195.14995pt
+(typearea)              \topmargin      = -65.03822pt
+(typearea)              \headheight     = 13.68748pt
+(typearea)              \headsep        = 16.42499pt
+(typearea)              \topskip        = 9.0pt
+(typearea)              \footskip       = 38.32498pt
+(typearea)              \baselineskip   = 10.95pt
+(typearea)              on input line 1139.
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\abovecaptionskip=\skip51
+\belowcaptionskip=\skip52
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count88
+\c@table=\count89
+\bibindent=\dimen102
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrpage2.sty
+Package: scrpage2 2010/04/22 v2.5 LaTeX2e KOMA-Script package
+LaTeX Info: Redefining \pagemark on input line 176.
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\xargs\xargs.sty
+Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+\XKV@depth=\count90
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+\xargs@max=\count91
+\xargs@toksa=\toks17
+\xargs@toksb=\toks18
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks19
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfpages.sty
+Package: pgfpages 2004/11/05 ver 0.01
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+mmon.tex
+\pgfutil@everybye=\toks20
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-la
+tex.def
+\pgfutil@abb=\box27
+ (C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.cod
+e.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.c
+ode.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
+de.tex
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen113
+\pgf@y=\dimen114
+\pgf@xa=\dimen115
+\pgf@ya=\dimen116
+\pgf@xb=\dimen117
+\pgf@yb=\dimen118
+\pgf@xc=\dimen119
+\pgf@yc=\dimen120
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count96
+\c@pgf@countb=\count97
+\c@pgf@countc=\count98
+\c@pgf@countd=\count99
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-p
+dftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-c
+ommon-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysso
+ftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count100
+\pgfsyssoftpath@bigbuffer@items=\count101
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyspr
+otocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.c
+ode.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+x
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.cod
+e.tex
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.cod
+e.tex)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.c
+ode.tex
+\pgfmath@dimen=\dimen121
+\pgfmath@count=\count102
+\pgfmath@box=\box28
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.code.tex
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.basic.code.tex)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.trigonometric.code.tex)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.random.code.tex)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.comparison.code.tex)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.base.code.tex)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.round.code.tex)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.misc.code.tex)))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.co
+de.tex
+\c@pgfmathroundto@lastzeros=\count103
+))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepo
+ints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen122
+\pgf@picmaxx=\dimen123
+\pgf@picminy=\dimen124
+\pgf@picmaxy=\dimen125
+\pgf@pathminx=\dimen126
+\pgf@pathmaxx=\dimen127
+\pgf@pathminy=\dimen128
+\pgf@pathmaxy=\dimen129
+\pgf@xx=\dimen130
+\pgf@xy=\dimen131
+\pgf@yx=\dimen132
+\pgf@yy=\dimen133
+\pgf@zx=\dimen134
+\pgf@zy=\dimen135
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen136
+\pgf@path@lasty=\dimen137
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen138
+\pgf@shorten@start@additional=\dimen139
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresc
+opes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box29
+\pgf@hbox=\box30
+\pgf@layerbox@main=\box31
+\pgf@picture@serial@count=\count104
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregr
+aphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen140
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
+ansformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen141
+\pgf@pt@y=\dimen142
+\pgf@pt@temp=\dimen143
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequ
+ick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreob
+jects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorear
+rows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresh
+ade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen144
+\pgf@sys@shading@range@num=\count105
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreim
+age.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreex
+ternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box32
+))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorela
+yers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
+ansparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+tterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count106
+\calc@Bcount=\count107
+\calc@Adimen=\dimen145
+\calc@Bdimen=\dimen146
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count108
+\calc@Cskip=\skip55
+)
+\pgf@logicalpages=\count109
+\pgf@firstshipout=\count110
+\pgf@lastshipout=\count111
+\pgf@currentshipout=\count112
+\pgf@cpn=\count113
+\pgf@shipoutnextto=\count114
+\pgfphysicalheight=\dimen147
+\pgfphysicalwidth=\dimen148
+\pgfpages@shipoutbox=\box33
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesha
+pes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box34
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleplo
+t.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-
+version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen149
+\pgf@nodesepend=\dimen150
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-
+version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
+de.tex))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.cod
+e.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen151
+\pgffor@skip=\dimen152
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\t
+ikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrary
+plothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count115
+\pgfplotmarksize=\dimen153
+)
+\tikz@lastx=\dimen154
+\tikz@lasty=\dimen155
+\tikz@lastxsaved=\dimen156
+\tikz@lastysaved=\dimen157
+\tikzleveldistance=\dimen158
+\tikzsiblingdistance=\dimen159
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count116
+\tikznumberofchildren=\count117
+\tikznumberofcurrentchild=\count118
+\tikz@fig@count=\count119
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulemat
+rix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count120
+\pgfmatrixcurrentcolumn=\count121
+\pgf@matrix@numberofcolumns=\count122
+)
+\tikz@expandcount=\count123
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\l
+ibraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+))
+(D:\documents\archiv\lernkarten\kartei.pageshipout.tex
+\pgfpages@shipoutbox=\box37
+\pgfpages@shipoutbox=\box38
+)
+(D:\documents\archiv\lernkarten\kartei.a5printstyle.tex)
+(D:\documents\archiv\lernkarten\kartei.a5printstylerotation.tex)
+(D:\documents\archiv\lernkarten\kartei.a6printstyle.tex)
+(D:\documents\archiv\lernkarten\kartei.a6printstylerotation.tex)
+(D:\documents\archiv\lernkarten\kartei.a7printstyle.tex)
+(D:\documents\archiv\lernkarten\kartei.a7printstylerotation.tex)
+(D:\documents\archiv\lernkarten\kartei.a8printstyle.tex)
+(D:\documents\archiv\lernkarten\kartei.a8printstylerotation.tex)
+(D:\documents\archiv\lernkarten\kartei.a9printstyle.tex)
+(D:\documents\archiv\lernkarten\kartei.a9printstylerotation.tex)
+\c@CardID=\count124
+\pgfpages@box@1=\box39
+\pgfpages@box@3=\box40
+\pgfpages@box@5=\box41
+\pgfpages@box@7=\box42
+\pgfpages@box@9=\box43
+\pgfpages@box@11=\box44
+\pgfpages@box@13=\box45
+\pgfpages@box@15=\box46
+\pgfpages@box@2=\box47
+\pgfpages@box@4=\box48
+\pgfpages@box@6=\box49
+\pgfpages@box@8=\box50
+\pgfpages@box@10=\box51
+\pgfpages@box@12=\box52
+\pgfpages@box@14=\box53
+\pgfpages@box@16=\box54
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks29
+\inpenc@posthook=\toks30
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\ngermanb.ldf"
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count125
+\U@D=\dimen160
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks31
+\ex@=\dimen161
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen162
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count126
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count127
+\leftroot@=\count128
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count129
+\DOTSCASE@=\count130
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count131
+\c@MaxMatrixCols=\count132
+\dotsspace@=\muskip10
+\c@parentequation=\count133
+\dspbrk@lvl=\count134
+\tag@help=\toks32
+\row@=\count135
+\column@=\count136
+\maxfields@=\count137
+\andhelp@=\toks33
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks34
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\stmaryrd\stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\dstroke\dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(D:\documents\archiv\lernkarten\mafi2.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape twoside 
+* h-part:(L,W,R)=(9.24994pt, 280.25409pt, 9.24994pt)
+* v-part:(T,H,B)=(23.12485pt, 178.17563pt, 9.24994pt)
+* \paperwidth=298.75397pt
+* \paperheight=210.55042pt
+* \textwidth=280.25409pt
+* \textheight=178.17563pt
+* \oddsidemargin=-63.02005pt
+* \evensidemargin=-63.02005pt
+* \topmargin=-71.04512pt
+* \headheight=14.23502pt
+* \headsep=7.66496pt
+* \topskip=9.0pt
+* \footskip=9.24994pt
+* \marginparwidth=39.4782pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count138
+\scratchdimen=\dimen170
+\scratchbox=\box57
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen171
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks37
+) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box58
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 16.
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\stmaryrd\ustmry.fd)
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 30.
+
+(C:\Users\Jessi\AppData\Roaming\MiKTeX\2.9\tex\latex\dstroke\udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+ [17{C:/Users/Jessi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [17] [33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [33] [49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+[49] [65
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [65] [81
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [81] [97
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [97] [113
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [113]
+Overfull \hbox (23.59137pt too wide) in paragraph at lines 417--418
+[]$[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 x \OT1/cmr/m/n/9 + \OML/cmm/m/it/9 y\OT1/c
+mr/m/n/9 ) = [](\OML/cmm/m/it/9 x\OT1/cmr/m/n/9 ) [](\OML/cmm/m/it/9 y\OT1/cmr/
+m/n/9 ) \OMS/cmsy/m/n/9   []\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 x\OT1/cmr/m/n/9 ) [
+](\OML/cmm/m/it/9 y\OT1/cmr/m/n/9 )$ \T1/cmr/m/n/9 und $[]\OT1/cmr/m/n/9 (\OML/
+cmm/m/it/9 x \OT1/cmr/m/n/9 + \OML/cmm/m/it/9 y\OT1/cmr/m/n/9 ) = [](\OML/cmm/m
+/it/9 x\OT1/cmr/m/n/9 ) [](\OML/cmm/m/it/9 y\OT1/cmr/m/n/9 ) +
+ []
+
+[129
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [129] [145
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [145]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 518.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 518.
+
+[161
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [161] [175
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+] [175] (D:\documents\archiv\lernkarten\mafi2.aux) ) 
+Here is how much of TeX's memory you used:
+ 14069 strings out of 494045
+ 254641 string characters out of 3145968
+ 387653 words of memory out of 3000000
+ 17012 multiletter control sequences out of 15000+200000
+ 15866 words of font info for 56 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 63i,11n,67p,453b,326s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Jessi\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl0900.pk> <C:\Users\Jessi\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Us
+ers\Jessi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.
+pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Jessi/AppData/Roaming/MiKTeX/2.9
+/fonts/type1/public/dstroke/dsrom10.pfb><C:/Users/Jessi/AppData/Roaming/MiKTeX/
+2.9/fonts/type1/public/dstroke/dsrom8.pfb>
+Output written on mafi2.pdf (22 pages, 274268 bytes).
+PDF statistics:
+ 307 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
